@@ -1,3 +1,4 @@
+// @ts-ignore
 import { RootState as DefaultRootState } from '@reduxjs/toolkit';
 
 export interface Pokemon {

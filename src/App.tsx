@@ -3,7 +3,6 @@ import Login from "./screens/login/login";
 import store from "./app/store";
 import { Provider } from "react-redux";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import ErrorPage from "./screens/ErrorPage";
 import { Toaster } from "react-hot-toast";
 // import routes from "./routes/routes";
 
