@@ -9,7 +9,7 @@ const URL_DEFAULT = "https://pokeapi.co/api/v2/pokemon?limit=20&offset=0";
 const URL_ENDPOINT = "https://pokeapi.co/api/v2/pokemon/";
 
 /*En este proyecto específico con una API sencilla, opté por no implementar el Principio de Inversión de Dependencia (DIP).
- La razón detrás de esta decisión es que, dada la simplicidad de la prueba, Consideré que introducir una abstracción para las llamadas HTTP 
+ La razón detrás de esta decisión es que, dada la simplicidad de la API, Consideré que introducir una abstracción para las llamadas HTTP 
  y aplicar el DIP podría haber agregado complejidad innecesaria al código.
 
  En una situación más compleja o en un proyecto más grande, definitivamente consideraría la implementación del DIP. 
